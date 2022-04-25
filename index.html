@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" type="module"></script>
+    <title>Awesome Books App</title>
+  </head>
+  <body>
+    <nav>
+      <span class="h1">Awesome Books</span>
+      <ul>
+        <li id="books-list"><a href="#" rel="noopener noreferrer">Books</a></li>
+        <li id="add-book"><a href="#" rel="noopener noreferrer">Add Book</a></li>
+        <li id="contact-info"><a href="#" rel="noopener noreferrer">Contact</a></li>
+      </ul>
+    </nav>
+    <span id="datetime"></span>
+    <h2 class="h2">Books List</h2>
+    <main class="books-visible books-list"></main>
+    <form id="form" class="add-visible add-book">
+      <input type="text" id="title" placeholder="Title" required>
+      <input type="text" id="author" placeholder="Author" required>
+      <button id="submit-btn" type="submit">Add</button>
+    </form>
+    <section class="contact-visible contact-info">
+      <span>Cellphone: +52 81 1991 5326</span>
+      <span>E-mail: danielmaloosorio@gmail.com</span>
+    </section>
+    <footer>
+      <h3>Copyright</h3>
+    </footer>
+  </body>
+</html>
