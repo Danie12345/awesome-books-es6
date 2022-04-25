@@ -9,9 +9,7 @@ This project is a basic booklist project. Built with ES6 syntax and the Luxon li
 - HTML, JavaScript, CSS
 - Luxon
 
-## Live Demo (if available)
-
-[Live Demo Link](https://danie12345.github.io/awesome-books/)
+## [Live Demo](https://danie12345.github.io/awesome-books-es6/)
 
 ## Getting Started
 
